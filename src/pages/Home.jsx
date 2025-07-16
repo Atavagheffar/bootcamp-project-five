@@ -1,3 +1,4 @@
+import CategorySection from "../components/CategorySection";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
@@ -7,6 +8,7 @@ export default function Home() {
       {/* <h2>ata2</h2> */}
       <Header />
       <Hero />
+      <CategorySection />
     </div>
   );
 }
