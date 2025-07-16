@@ -1,7 +1,12 @@
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+
 export default function Home() {
   return (
-    <div>
-      <h2>ata2</h2>
+    <div className="m-auto p-0 w-full h-[100dvh] ">
+      {/* <h2>ata2</h2> */}
+      <Header />
+      <Hero />
     </div>
   );
 }

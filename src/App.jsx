@@ -6,8 +6,8 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div>
-      <h1>hello ata</h1>
+    <div className="w-full h-full bg-white">
+      {/* <h1>hello ata</h1> */}
       <Home />
     </div>
   );
