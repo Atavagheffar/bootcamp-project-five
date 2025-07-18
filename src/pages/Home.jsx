@@ -3,6 +3,7 @@ import CategorySection from "../components/CategorySection";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import NewProductSection from "../components/NewProductSection";
+import OurServices from "../components/OurServices";
 import ProductOnSaleSection from "../components/ProductsOnSaleSection";
 import TopProductSection from "../components/TopProductSection";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <NewProductSection />
       <TopProductSection />
       <BottomBanner />
+      <OurServices />
     </div>
   );
 }
