@@ -1,5 +1,6 @@
 import BottomBanner from "../components/BottomBanner";
 import CategorySection from "../components/CategorySection";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import NewProductSection from "../components/NewProductSection";
@@ -19,6 +20,7 @@ export default function Home() {
       <TopProductSection />
       <BottomBanner />
       <OurServices />
+      <Footer />
     </div>
   );
 }
