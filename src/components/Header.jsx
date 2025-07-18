@@ -3,7 +3,7 @@ import NavLogo from "../assets/Pic/NavLogo.png";
 export default function Header() {
   return (
     <div
-      className="flex flex-row  justify-evenly items-center border-b-[#0C68F4B2] border-b-[1px]
+      className="flex flex-row  justify-evenly items-center border-b-[#0C68F4B2] border-b-[1px] py-4
     "
     >
       <img src={NavLogo} className="w-[56px] h-[63px]" />

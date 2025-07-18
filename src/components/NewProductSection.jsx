@@ -36,7 +36,7 @@ export default function NewProductSection() {
   return (
     <div className="flex flex-col w-[80%]  mx-auto">
       <div className="border-[#B4B4B4] border-b-4 flex flex-row justify-between  my-4 py-2.5">
-        <h3>New Product</h3>
+        <h3 className="text-3xl font-medium font-Inter mb-4">New Product</h3>
         <a
           href=""
           className="flex flex-row justify-evenly items-center gap-2.5"

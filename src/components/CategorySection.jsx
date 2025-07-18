@@ -17,7 +17,7 @@ const categories = [
 
 export default function CategorySection() {
   return (
-    <div className="flex gap-4 overflow-x-auto px-4 py-6">
+    <div className="flex flex-row justify-between gap-4 overflow-x-auto px-4 py-6 w-[80%] mx-auto">
       {categories.map((cat, index) => (
         <CategoryCard key={index} title={cat.title} image={cat.image} />
       ))}
