@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import NewProductSection from "../components/NewProductSection";
 import ProductOnSaleSection from "../components/ProductsOnSaleSection";
+import TopProductSection from "../components/TopProductSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <CategorySection />
       <ProductOnSaleSection />
       <NewProductSection />
+      <TopProductSection />
     </div>
   );
 }
